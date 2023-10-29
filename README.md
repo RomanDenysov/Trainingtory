@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Employee Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Привет! Меня зовут Roman Denysov, и это мой проект управления сотрудниками, созданный в рамках курса "Полный курс по JavaScript + React - с нуля до результата" от школы UDEMY. Это приложение создано для демонстрации базовых принципов работы с React, включая создание компонентов, управление состоянием и обработку событий.
 
-## Available Scripts
+## Функциональности
 
-In the project directory, you can run:
+- Добавление сотрудников: Вы можете добавить новых сотрудников, указав их имя и зарплату.
+- Удаление сотрудников: Удаляйте существующих сотрудников из списка.
+- Изменение статуса "понравился": Отмечайте сотрудников, которые вам нравятся.
+- Изменение зарплаты: Увеличивайте или уменьшайте зарплату сотрудников.
+- Поиск по имени: Вы можете искать сотрудников по их именам.
+- Фильтрация по статусу "понравился" и зарплате: Фильтруйте сотрудников в соответствии с вашими предпочтениями.
 
-### `npm start`
+## Использование
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Склонируйте репозиторий на свой локальный компьютер:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### git clone https://github.com/RomanDenysov/test-employee-management-app.git
 
-### `npm test`
+2. Перейдите в директорию проекта:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### cd employee-management-app
 
-### `npm run build`
+3. Установите зависимости:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Запустите приложение:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. После запуска, приложение будет доступно по адресу `http://localhost:3000` в вашем веб-браузере.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Зависимости
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React
+- JavaScript
+- HTML/CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Автор
 
-## Learn More
+[Roman Denysov] - [RomanDenysov](https://github.com/RomanDenysov)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Этот проект создан в рамках курса "Полный курс по JavaScript + React - с нуля до результата" от UDEMY.
