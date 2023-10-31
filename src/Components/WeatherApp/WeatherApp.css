@@ -1,0 +1,105 @@
+.container {
+    margin: calc(1vw + 1vh);
+    border-radius: 30px;
+    border: 4px solid #24157a;
+    background: #ebfffc;
+}
+.top-bar{
+    margin: calc(1vw + 1vh);
+    height: max-content;
+    padding: calc(1vw + 1vh);
+    display: flex;
+    justify-content: center;
+    gap: calc(1vw + 1vh);
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #24157a 0%, #5b4fa1 100%);
+}
+.top-bar input {
+    display: flex;
+    width: calc(20vw + 20%);
+    height: calc(4vw + 4vh);
+    border: none;
+    background: #ebfffc;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 1.6rem;
+    font-weight: normal;
+    transition: all .3s ease-in-out;
+}
+.top-bar input:hover{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(4vw + 4vh);
+    height: calc(4vw + 4vh);
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search-icon .icon {
+    font-size: calc(2rem + 20%);
+    transition: all .3s ease-in-out;
+}
+.search-icon .icon:hover {
+    font-size: calc(2.8rem - 20%);
+}
+.weather-card{
+    margin: calc(1vw + 1vh);
+    padding: calc(1vw + 1vh);
+    width: max-content;
+    height: max-content;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #24157a 0%, #5b4fa1 100%);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.weather-image{
+    margin-top: 2.4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 6.2rem;
+    font-weight: bold;
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.data-container{
+    margin-top: 3.4vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.element{
+    margin: 0 1.8vw 3vw 1.8vw;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2vw;
+}
+.data{
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+.text{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.element .icon{
+    margin-top: 1.4vh;
+    font-size: 2.2rem;
+}
