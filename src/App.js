@@ -7,7 +7,7 @@ function App() {
 	const [location, setLocation] = useState('');
 	const [error, setError] = useState(false);
 	
-	const api = '913e3beb7b5950b2aeba64ff0d3270c6';
+	const api = "your api-key";
 
 	
 	
