@@ -8,7 +8,7 @@ const WeatherApp = () => {
     const [iconUrl, setIconUrl] = useState('https://openweathermap.org/img/wn/04d@4x.png`');
     const [city, setCity] = useState('London');
 
-    let api_key = "913e3beb7b5950b2aeba64ff0d3270c6";
+    let api_key = "your api-key";
 
     const search = async () => {
         if(city === ''){
